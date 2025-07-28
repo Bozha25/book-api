@@ -3,10 +3,10 @@ name: Deploy .NET API to AWS Elastic Beanstalk
 on:
   push:
     branches:
-      - master  # ???????
+      - master  
 
 env:
-  DOTNET_VERSION: '8.0'  # ?????? .NET ??
+  DOTNET_VERSION: '8.0'  
 
 jobs:
   deploy:
